@@ -1,0 +1,70 @@
+
+body{
+    background-color: #DFF4FA;
+}
+
+#Titulo{
+    font-size: 85px;
+    margin-top: -6%;
+    padding-left: 2.3cm;
+}
+
+#Logo{
+
+    width: 2cm;
+    height: 2cm;
+}
+#Subtitulo{
+    margin-top: -5.6%;
+    padding-left: 2.3cm;
+}
+
+nav{
+    width: 100%;
+    height: 150px;
+    background-color: #6EA99E;
+}
+
+div{
+    margin: 2%;
+    padding-left: 7%;
+    padding-right: 2%;
+    padding-bottom: 4%;
+    padding-top: 1%;
+    background-color: #6EA99E;
+}
+#LogoPaes{
+    margin-top: -0.5%;
+    width: 250px;
+    height: 250px;
+}
+
+article{
+    margin-left: 16%;
+    margin-top: -17%;
+    margin-bottom: -1%;
+    border-color: #5c8d84;
+    border-left-style: solid;
+    border-left-width: 5px;
+}
+
+#Tituloinfo{
+    margin-left: 2%;
+    margin-bottom: -0.5%;
+    font-size: xx-large;
+}
+
+button{
+    width: 50%;
+    height: 10%;
+    background-color:rgba(240, 248, 255, 0);
+    border:none;
+    font-size: x-large;
+}
+
+.InfoPaes{
+    border-color: #5c8d84;
+    border-bottom-width:2px;
+    border-bottom-style: solid;
+    margin-left: 5%;
+}
