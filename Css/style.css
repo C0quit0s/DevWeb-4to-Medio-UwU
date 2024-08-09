@@ -1,6 +1,7 @@
 
+
 body{
-    background-color: #DFF4FA;
+    background-color: #d5e6ff;
 }
 
 #Titulo{
@@ -10,19 +11,22 @@ body{
 }
 
 #Logo{
-
     width: 2cm;
     height: 2cm;
 }
+
 #Subtitulo{
     margin-top: -5.6%;
     padding-left: 2.3cm;
+
+    font-size:xx-large;
 }
 
 nav{
     width: 100%;
     height: 150px;
-    background-color: #6EA99E;
+    background-color: #84B6F4;
+    border-radius: 0.5cm;
 }
 
 div{
@@ -31,8 +35,10 @@ div{
     padding-right: 2%;
     padding-bottom: 4%;
     padding-top: 1%;
-    background-color: #6EA99E;
+    background-color: #84B6F4;
+    border-radius: 0.5cm;
 }
+
 #LogoPaes{
     margin-top: -0.5%;
     width: 250px;
@@ -67,4 +73,182 @@ button{
     border-bottom-width:2px;
     border-bottom-style: solid;
     margin-left: 5%;
+}
+
+/* Responsivo para pantallas más pequeñas */
+@media (max-width: 1280px) {
+    
+    header{
+
+        margin-top: -1cm;
+        margin-bottom: 4%;
+    }
+    
+    #Titulo{
+        font-size: 60px;
+        padding-left: 4cm;
+        margin-top: -4cm;
+        
+    }
+
+    #Logo{
+        width: 3.5cm;
+        height: 3.5cm;
+        margin-top: 3%;
+    }
+
+    #Subtitulo{
+        padding-left: 4cm;
+    }
+
+    #LogoPaes{
+        width: 200px;
+        height: 200px;
+        margin-top: -1cm;
+        padding-top: 2cm;
+    }
+
+    article{
+        margin-left: 20%;
+        padding-top: -5cm;
+        margin-top: -7cm;
+    }
+
+    button{
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    #Titulo{
+        font-size: 45px;
+        margin-top: -30%;
+        padding-left: 8%;
+    }
+
+    #Logo{
+        padding-top: 1%;
+        width: 1.5cm;
+        height: 1.5cm;
+    }
+
+    #Subtitulo{
+        padding-left: 8%;
+        font-size: medium;
+    }
+
+    nav{
+        height: 120px;
+        margin-bottom: 10%;
+    }
+
+    div{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #LogoPaes{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 1cm;
+        padding-left: 35%;
+        margin-top: -10%;
+    }
+
+    article{
+        margin-left: 5%;
+        margin-top: -10%;
+    }
+
+    button{
+        width: 80%;
+        font-size: large;
+    }
+}
+
+@media (max-width: 480px) {
+    #Titulo{
+        font-size: 35px;
+        padding-left: 0.5cm;
+        padding-top: 13%;
+        padding-left: 15%;
+    }
+
+    #Logo{
+        padding-top: 3%;
+        width: 1.5cm;
+        height: 1.5cm;
+    }
+
+    #Subtitulo{
+        padding-left: 15%;
+        margin-top: -10%;
+    }
+
+    nav{
+        height: 100px;
+        margin-bottom: 20%;
+    }
+
+    div{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    #LogoPaes{
+        width: 150px;
+        height: 150px;
+        padding-left: 30%;
+        padding-top: -35%;
+        margin-top: -20%;
+    }
+    article{
+        margin-left: 3%;
+        margin-top: -8%;
+    }
+
+    button{
+        width: 90%;
+        font-size: medium;
+    }
+}
+
+
+@media (max-height:740px) {
+
+    #Titulo, #Subtitulo{
+        padding-left: 19%;
+    }
+    #LogoPaes{
+        padding-left: 34%;
+        width: 100px;
+        height: 100px;
+    }
+
+    nav{
+        margin-bottom: 5%;
+    }
+}
+@media (max-height: 667px)  {
+    
+    #Titulo, #Subtitulo{
+        padding-left: 19%;
+    }
+
+    #Logo{
+        padding-top: 5%;
+
+    }
+    nav{
+
+        margin-bottom: 0%;
+    }
+
+    #LogoPaes{
+        width: 100px;
+        height: 100px;
+        margin-top: -25%;
+        margin-bottom: -1% ;
+        padding-left: 34%;
+    }
 }
